@@ -24,6 +24,6 @@ server.bindAsync(address, grpc.ServerCredentials.createInsecure(), (err, port) =
     console.error(err);
     return;
   }
-  console.log(`Server running at ${address}`);
+  console.log(`Server running at ${address}...`);
   server.start();
 });
